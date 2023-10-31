@@ -1,35 +1,55 @@
-# Vue.js
+# To-Do List using Vue.js 
 
-This directory is a brief example of a [Vue.js](https://vuejs.org/) app that can be deployed to Vercel with zero configuration.
+![Screenshot of Vue.js To-Do List](./screenshots/Screenshot.png)
 
-## Deploy Your Own
+## Description
 
-Deploy your own Vue.js project with Vercel.
+This is a simple and user-friendly to-do list web application built with Vue.js. It allows users to create, organize, and manage their tasks with ease. The application features personalized greetings and category-based task organization.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vue&template=vue)
+## Features
 
-_Live Example: https://vue-template.vercel.app_
+- Create, edit, and delete tasks.
+- Categorize tasks as "Business" or "Personal."
+- Personalized greeting with the user's name.
+- Dark mode for comfortable night-time usage.
+- Data persistence using local storage.
+- User-friendly and intuitive interface.
 
-## Running Locally
+## Installation
 
-```
-yarn install
-```
+1. Clone the repository:
 
-#### Compile and hot-reload for development
+   ```bash
+   git clone https://github.com/prateek271/vuejs-todo-list.git
+   ```
 
-```
-yarn serve
-```
+2. Navigate to the project directory:
 
-#### Compile and minify for production
+   ```bash
+   cd vuejs-todo-list
+   ```
 
-```
-yarn build
-```
+3. Open the `index.html` file in your web browser.
 
-#### Lint and fix files
+## Usage
 
-```
-yarn lint
-```
+- To create a task, enter a task description and select a category.
+- Check the "Edit" box to make changes to an existing task.
+- Click the category bubbles to switch between "Business" and "Personal" tasks.
+- Tasks can be marked as done or undone with the checkbox.
+- Use the "Delete" button to remove a task from the list.
+
+## Screenshots
+
+![Screenshot 1](./screenshots/Screenshot1.png)
+
+![Screenshot 2](./screenshots/Screenshot2.png)
+
+## Credits
+
+- Built with Vue.js - [Vue.js Official Website](https://vuejs.org/)
+- Styling with CSS
+
+## License
+
+This project is open-source and available under the [MIT License](./LICENSE).
